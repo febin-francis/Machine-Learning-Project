@@ -14,18 +14,18 @@ variable coded features. Which features will you include for model building and 
 6. Build a model using Gender and Age as independent variable and Status as dependent
 variable.
 • Are Gender and Age a significant feature in this model?
-
 • What inferences can be drawn from this model?
-7. Build a model with statsmodel.api to predict the probability of Not Joining. How do
+
+8. Build a model with statsmodel.api to predict the probability of Not Joining. How do
 you interpret the model outcome? Report the model performance on the test set.
-8. Build a model with statsmodel.formula.api to predict the probability of Not Joining
+9. Build a model with statsmodel.formula.api to predict the probability of Not Joining
 and report the model performance on the test set. What difference do you observe in
 the model built here and the one built in step 7.
-9. Build a model using sklearn package to predict the probability of Not Joining. What
+10. Build a model using sklearn package to predict the probability of Not Joining. What
 difference do you observe in this model compared to model built in step 7 and 8.
-10. Fine-tune the cut-off value using cost of misclassification as a strategy. The cut-off
+11. Fine-tune the cut-off value using cost of misclassification as a strategy. The cut-off
 should help classify maximum number of Not Joining cases correctly.
-11. Fine-tune the cut-off value using youdens index as a strategy. The cut-off should help
+12. Fine-tune the cut-off value using youdens index as a strategy. The cut-off should help
 balance the classification of Joined and Not Joined cases.
-12. Apply the cut-off values obtained in step 10 and step 11 on the test set. What
+13. Apply the cut-off values obtained in step 10 and step 11 on the test set. What
 inference can be deduced from it?
